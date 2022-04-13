@@ -65,7 +65,7 @@ const web3 = createAlchemyWeb3(API_URL);
 const contract = require("./main-abi.json");
 const contractChild = require("./child-abi.json");
 
-const contractAddress = "0x43b107f0f0e82E1591c8121a39Cf9F3E5f079b11";
+const contractAddress = "0xB33AAEaAAde302569E52739f284592Cbd2F16E17";
 const MyNFTwithGraffiti = new web3.eth.Contract(contract, contractAddress);
 
 
